@@ -1,0 +1,83 @@
+#Exercicio_1
+
+#for i in range(1, 51):
+#   print(i, end=",")
+
+#Exercicio_2
+
+#for i in range(0, 101, 2):
+#  print(i, end=",")
+
+#Exercicio_3
+
+#n = int(input("Digite: "))
+#for i in range(1, 11):
+#    print(f"{n}x{i} = {n*i}")
+
+#Exercicio_4
+
+#n = int(input("Digite quantas idades você vai colocar: "))
+#idadesm = 0
+#for i in range(0, n):
+#    idades = int(input("Digite idade: "))
+#    idadesm = idadesm + idades
+#print(f"A média das idades é {idadesm/n}")
+
+#Exercicio_5
+
+#par = 0
+#impar = 0
+#for i in range(0, 10):
+#    n = int(input("Digite aqui: "))
+#    if n % 2 == 0:
+#        par += 1
+#    else:
+#        impar += 1
+#print(f"Temos um total de:\n"
+#      f"{par} números pares.\n"
+#      f"{impar} números ímpares.")
+
+#Exercicio_6
+
+#n1 = 0
+#n2 = 0
+#for i in range(0, 10):
+#    n = int(input("Digite aqui: "))
+#    if 10 <= n <= 20:
+#        n1 += 1
+#    else:
+#        n2 += 1
+#print(f"Temos {n1} números dentro.\n"
+#      f"Temos {n2} números fora.")
+
+#Exercicio_7
+
+#soma = 0
+#for i in range(0, 101, 2):
+#    soma += i
+#print(soma)
+
+#Exercicio_8
+
+#n = int(input("Digite um número positivo: "))
+#if n < 0:
+#    print("Digite um número positivo!!!")
+#    n = int(input("Digite um número positivo: "))
+#for i in range(1, n):
+#    if n % i == 0:
+#        print(i)
+#print(n)
+
+#Exercicio_9
+
+#lista = []
+#for i in range(0, 10):
+#    lista.append(int(input("Digite aqui: ")))
+#    lista.sort()
+#print(lista)
+
+#Exercicio_10
+
+lista = [2, 4, 7, 2, 3, 3, 1, 0, 2, 6]
+x = lista.count(2)
+print(x) 
