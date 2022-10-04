@@ -11,6 +11,8 @@
 #Exercicio_3
 
 #n = int(input("Digite: "))
+#if 1 > n > 10:
+#     n = int(input("Digite: "))
 #for i in range(1, 11):
 #    print(f"{n}x{i} = {n*i}")
 
